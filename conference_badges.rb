@@ -3,7 +3,7 @@
 def badge_maker(array)
   created_badges = []
   array.each do |person|
-    created_badges << ""
+    created_badges << "Hello, my name is #{person}."
   end
 end
 
