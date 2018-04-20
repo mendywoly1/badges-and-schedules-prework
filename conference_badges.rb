@@ -20,6 +20,6 @@ def assign_rooms(array)
   room_assignment
 end 
 
-def printer
-  
+def printer(array)
+  puts array
 end
