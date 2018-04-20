@@ -11,7 +11,11 @@ def batch_badge_creator(array)
   end
   badges_array
 end
+
 def assign_rooms(array)
+  room_assignment = []
+  array.each_with_indes do |person|
+    room_assignment << "Hello #{person}! You'll be assigned to room "
 end 
 
 def printer
