@@ -14,8 +14,8 @@ end
 
 def assign_rooms(array)
   room_assignment = []
-  array.each_with_indes do |person|
-    room_assignment << "Hello #{person}! You'll be assigned to room "
+  array.each_with_index do |person, index|
+    room_assignment << "Hello #{person}! You'll be assigned to room #{index}"
 end 
 
 def printer
