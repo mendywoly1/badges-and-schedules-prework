@@ -5,6 +5,7 @@ def badge_maker(array)
   array.each do |person|
     created_badges << "Hello, my name is #{person}."
   end
+  created_badges
 end
 
 def assign_rooms(array)
