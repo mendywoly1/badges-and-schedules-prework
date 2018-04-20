@@ -1,6 +1,6 @@
 # Write your code here.
 
-def batch_badge_creator(array)
+def badge_maker(array)
   created_badges = []
   array.each do |person|
     created_badges << ""
