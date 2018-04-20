@@ -1,3 +1,6 @@
 # Write your code here.
 
-def 
+def batch_badge_creator(array)
+end
+
+def ass
